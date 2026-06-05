@@ -24,3 +24,5 @@ class Solution:
         return res  
 s=Solution()
 print(s.three_sum([-1,0,1,2,-1,-4]))
+#In brute force method-the repetition of solution may appear to avoid we use sinal result as set and the sublist which is 3sum as tuple after sorted so that immutable values can be add in result set.
+#In optimal solution:first we have to sort the nums so that we can make it work left and right without using multiple loops always checks left<right and indexes
