@@ -20,10 +20,10 @@ class Solution(object):
                     left += 1
                     right -= 1
 
-                    while left < right and nums[left] == nums[left - 1]:
+                    while left < right and nums[left] == nums[left - 1]:#To check ifthe value is duplicate if it is then move forward 1-step
                         left += 1
 
-                    while left < right and nums[right] == nums[right + 1]:
+                    while left < right and nums[right] == nums[right + 1]:#To check ifthe value is duplicate if it is then move backward 1-step
                         right -= 1
 
                 elif total < 0:
